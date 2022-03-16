@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+##  what is node_modules
+    node_modules just take a vlaue and fill full the required of packages and library's
+    for example we have add a new npm package so we can simple run the command the install it
+    but we have second opetion
+## second option  -` we can just add the copy past package name and run the commant [npm install]`
+## npm install :-
+    npm install is a powerful command its full fill the all requiere react project and node_module
+
+## how to create a file and which place to import so that its working fine 
+`STEP -1` create a file with in `src Folder` example creat a [User.js] file ..
+`STEP -2` import the file with name in index.js example: `import User from ./user`
+`STEP -3` call the file with the name tag example: `<User />`
