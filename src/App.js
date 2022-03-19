@@ -9,6 +9,7 @@ import Props from './Props';
 import PropsClass from './PropsClass';
 import GetInputValue from './component/GetInputValue';
 import HideShowElement from './component/HideShowElement';
+import Form from './formComponent/Form';
 
 
 
@@ -27,7 +28,9 @@ function App() {
       {/* <ClassComponent /> */}
       {/* <User /> */}
       {/* <Login /> */}
+      <Form />
      <HideShowElement />
+    
 
       {/* <Props  name ="akleem" email ="akleem789@gmail.com"/> */}
       {/* <Props name="ahmad" email ="akleem789@gmail.com" obj ={{address:"nangal soti",age:'22'}}/> */}

@@ -92,3 +92,14 @@ mostly we have two type component
     its a hook that allow the meantain state and same funcationaliety like update component
 ## what is props
      prop is similare to parameter like when we pass the parameter in function same as pass props in component    
+
+## how to control page relaoad when we submit form
+ The preventDefault() method stops the default action of a selected element from happening by a user
+## Syntex of preventDefault
+    function(event){
+         event.preventDefault();
+    }
+   
+
+
+    
