@@ -8,6 +8,7 @@ import State from './State';
 import Props from './Props';
 import PropsClass from './PropsClass';
 import GetInputValue from './component/GetInputValue';
+import HideShowElement from './component/HideShowElement';
 
 
 
@@ -22,11 +23,11 @@ function App() {
   return (
     <div className="App">
       {/* <State /> */}
-     <GetInputValue />
+     {/* <GetInputValue /> */}
       {/* <ClassComponent /> */}
       {/* <User /> */}
       {/* <Login /> */}
-   
+     <HideShowElement />
 
       {/* <Props  name ="akleem" email ="akleem789@gmail.com"/> */}
       {/* <Props name="ahmad" email ="akleem789@gmail.com" obj ={{address:"nangal soti",age:'22'}}/> */}
